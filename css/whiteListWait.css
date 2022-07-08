@@ -12,7 +12,7 @@
     opacity: 0;
 }
 
-.popup__whiteList-wait.popup__whiteList-active {
+.popup__whiteList-wait.popup__whiteList-wait-active {
     opacity: 1;
     visibility: visible;
 }
