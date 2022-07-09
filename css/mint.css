@@ -229,7 +229,20 @@ input[type=number]::-webkit-inner-spin-button {
     letter-spacing: -0.01em;
 }
 
+.mint__buttons-take .mint__buttons-stake {
+    width: 321px;
+}
+
 @media (max-width: 768px) {
+    .mint__buttons-take {
+        margin-top: 19px;
+        margin-bottom: 57px;
+    }
+
+    .mint__buttons-take .mint__buttons-stake {
+        width: 278px;
+    }
+
     .mint__buttons-info{
         margin-top: 7px;
     }
