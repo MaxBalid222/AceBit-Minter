@@ -105,8 +105,8 @@ div .global__btn-opacity {
 .validator{
     height: 100vh;
     width: 100%;
-    background-image: url('../images/global/bg.jpg');
-    background-size: 2000px;
+    background-image: url('../images/global/bg-new.png');
+    background-size: 2560px;
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
@@ -165,30 +165,21 @@ div .global__btn-opacity {
 
 @media (max-width: 1920px) {
     .validator {
-        background-size: 1920px;
-        background-position: center -82px;
+        background-size: 2270px;
     }
 }
 
 @media (max-width: 1440px) {
     .validator {
-        background-size: 1644px;
-        background-position: center -103px;
+        background-size: 1803px;
     }
 }
-
-
-
 
 @media (max-width: 768px) {
     .validator__content{
         width: 326px;
     }
-    .validator{
-        background-image: url('../images/global/bg-520.jpg');
-        background-size: 780px;
-        background-position: center -153px;
-    }
+
     .validator__logo {
         top: 20px;
         left: 20px;
