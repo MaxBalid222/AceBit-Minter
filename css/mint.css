@@ -61,7 +61,10 @@ input[type=number]::-webkit-inner-spin-button {
 .mint__count {
     display: flex;
     margin-bottom: 44px;
-    margin-right: 68px;
+}
+
+.mint__total {
+    width: 144px;
 }
 
 .mint__amount {
@@ -285,7 +288,11 @@ input[type=number]::-webkit-inner-spin-button {
     }
 
     .mint__count {
-        margin-right: 51px;
+        margin-right: auto;
         margin-bottom: 21px;
+    }
+
+    .mint__total {
+        width: auto;
     }
 }
