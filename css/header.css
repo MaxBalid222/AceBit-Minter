@@ -99,6 +99,8 @@
     stroke-linecap: round;
 }
 
+
+
 @media (max-width: 700px) {
     .menu-btn {
         display: flex;
@@ -111,7 +113,7 @@
         padding: 20px 24px 26px 20px;
         flex-direction: column;
         background-color: rgb(40, 40, 40, 0);
-        height: 61px;
+        height: 60px;
         overflow: hidden;
         transition: background-color .5s ease-in-out, height .5s ease-in-out;
         z-index: 15;
@@ -185,6 +187,8 @@
         height: 20px;
     }
 }
+
+
 
 /*инструкция по активным классам для меню*/
 /*накинуть класс opened на menu-btn*/
