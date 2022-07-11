@@ -71,6 +71,7 @@
 
 
 .twitter__bottom-btn{
+    cursor: pointer;
     width: 320px;
     height: 56px;
     background: #E6C365;
@@ -109,8 +110,34 @@
     margin-left: 13px;
 }
 
+.twitter__announced {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 108px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.twitter__announced-text {
+    font-family: 'Proxima-Nova-Bold', sans-serif;
+    color: #E6C365;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
 
 @media (max-width: 768px){
+    .twitter__announced{
+        width: 280px;
+        height: 96px;
+        border-radius: 12px;
+    }
+    .twitter__announced-text{
+        font-size: 32px;
+        line-height: 32px;
+    }
     .twitter__top-item{
         width: 64px;
         height: 96px;
